@@ -12,7 +12,7 @@
         <!-- keywords -->
         <meta name="keywords" content="rockets, Purdue, reusable, college, students, space, karmin, liquids, electronics">
         <!-- favicon -->
-        <link rel="shortcut icon" href="{{ url_for('static', filename='images/user/RRaPLogo.png') }}">
+        <link rel="shortcut icon" href="{{ url_for('static', filename='images/rrapFavicon.png') }}">
         <link rel="apple-touch-icon" href="{{ url_for('static', filename='images/apple-touch-icon-57x57.png') }}">
         <link rel="apple-touch-icon" sizes="72x72" href="{{ url_for('static', filename='images/apple-touch-icon-72x72.png') }}">
         <link rel="apple-touch-icon" sizes="114x114" href="{{ url_for('static', filename='images/apple-touch-icon-114x114.png') }}">
@@ -54,7 +54,7 @@
                 <div class="container-fluid nav-header-container">
                     <!-- start logo -->
                     <div class="col-auto pl-0">
-                        <a href="index.html" title="RRaP" class="logo"><img src="images/user/RRaPLogo.png" class="logo-dark" alt="RRaP"><img src="images/user/RRaPLogo.png" alt="RRaP" class="logo-light default"></a>
+                        <a href="index.html" title="RRaP" class="logo"><img src="{{ url_for('static', filename='images/rrapLogoBlackCentered.png') }}" class="logo-dark" alt="RRaP"><img src="{{ url_for('static', filename='images/rrapLogoCentered.png') }}" alt="RRaP" class="logo-light default"></a>
                     </div>
                     <!-- end logo -->
                     <div class="col accordion-menu pr-0 pr-md-3">
@@ -1134,53 +1134,53 @@
         <a class="scroll-top-arrow" href="javascript:void(0);"><i class="ti-arrow-up"></i></a>
         <!-- end scroll to top -->
         <!-- javascript libraries -->
-        <script type="text/javascript" src="js/jquery.js"></script>
-        <script type="text/javascript" src="js/modernizr.js"></script>
-        <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
-        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-        <script type="text/javascript" src="js/skrollr.min.js"></script>
-        <script type="text/javascript" src="js/smooth-scroll.js"></script>
-        <script type="text/javascript" src="js/jquery.appear.js"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.js') }}"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/modernizr.js') }}"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/bootstrap.bundle.js') }}"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.easing.1.3.js') }}"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/skrollr.min.js') }}"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/smooth-scroll.js') }}"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.appear.js') }}"></script>
         <!-- menu navigation -->
-        <script type="text/javascript" src="js/bootsnav.js"></script>
-        <script type="text/javascript" src="js/jquery.nav.js"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/bootsnav.js') }}"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.nav.js') }}"></script>
         <!-- animation -->
-        <script type="text/javascript" src="js/wow.min.js"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/wow.min.js') }}"></script>
         <!-- page scroll -->
-        <script type="text/javascript" src="js/page-scroll.js"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/page-scroll.js') }}"></script>
         <!-- swiper carousel -->
-        <script type="text/javascript" src="js/swiper.min.js"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/swiper.min.js') }}"></script>
         <!-- counter -->
-        <script type="text/javascript" src="js/jquery.count-to.js"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.count-to.js') }}"></script>
         <!-- parallax -->
-        <script type="text/javascript" src="js/jquery.stellar.js"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.stellar.js') }}"></script>
         <!-- magnific popup -->
-        <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.magnific-popup.min.js') }}"></script>
         <!-- portfolio with shorting tab -->
-        <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/isotope.pkgd.min.js') }}"></script>
         <!-- images loaded -->
-        <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/imagesloaded.pkgd.min.js') }}"></script>
         <!-- pull menu -->
-        <script type="text/javascript" src="js/classie.js"></script>
-        <script type="text/javascript" src="js/hamburger-menu.js"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/classie.js') }}"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/hamburger-menu.js') }}"></script>
         <!-- counter -->
-        <script type="text/javascript" src="js/counter.js"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/counter.js') }}"></script>
         <!-- fit video -->
-        <script type="text/javascript" src="js/jquery.fitvids.js"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.fitvids.js') }}"></script>
 
         <!-- skill bars -->
-        <script type="text/javascript" src="js/skill.bars.jquery.js"></script> 
+        <script type="text/javascript" src="{{ url_for('static', filename='js/skill.bars.jquery.js') }}"></script> 
         <!-- justified gallery -->
-        <script type="text/javascript" src="js/justified-gallery.min.js"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/justified-gallery.min.js') }}"></script>
         <!--pie chart-->
-        <script type="text/javascript" src="js/jquery.easypiechart.min.js"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.easypiechart.min.js') }}"></script>
         <!-- instagram -->
-        <script type="text/javascript" src="js/instafeed.min.js"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/instafeed.min.js') }}"></script>
         <!-- retina -->
-        <script type="text/javascript" src="js/retina.min.js"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/retina.min.js') }}"></script>
         <!-- revolution -->
-        <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
-        <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='revolution/js/jquery.themepunch.tools.min.js') }}"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='revolution/js/jquery.themepunch.revolution.min.js') }}"></script>
         <!-- revolution slider extensions (load below extensions JS files only on local file systems to make the slider work! The following part can be removed on server for on demand loading) -->
         <!--<script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
         <script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
@@ -1192,6 +1192,6 @@
         <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
         <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>-->
         <!-- setting -->
-        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/main.js') }}"></script>
     </body>
 </html>
